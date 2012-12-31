@@ -8,5 +8,9 @@ These are mostly just SASS [functions pulled from Chris Eppsteins fork](https://
 List of Functions
 -----------------
 
-* str_length(string) *eg.* `str-length("foo") => 3`
-* str_insert(original, insert, index)
+* str_length(string) *eg.* `str_length("foo") => 3`
+* str_insert(original, insert, index) *eg.* `str_insert("abcd", "X", 4) => "abcXd"`
+* str_replace(string, find, replace) *eg.* `str_replace("abcd", "a", "zzz")  => "zzzbcd"`
+* str_extract(string, start_at, end_at = nil) *eg.* `str_extract("abcd",2,-2) => "bc"`
+* to_upper_case(string) *eg.* `to_upper_case("abcd") => "ABCD"`
+* to_lower_case(string) *eg.* `to_lower_case("ABCD") => "abcd"`
